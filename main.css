@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: auto ; 
+}
+.img1 {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.texto1 {
+    position: absolute;
+    top: 180px; /* Posiciona o texto no centro verticalmente */
+    left: 200px; /* Posiciona o texto no centro horizontalmente */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno para melhor legibilidade */
+    font-size: 120px;
+}
+.faixa{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #292d33;
+    justify-content: space-evenly
+}
+.elemento{
+    border: 10px solid black;
+    padding: 80px 45px;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    max-width: 20%;
+    font-size: 11px;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img2{
+    display: flex;
+    width: 220px;
+    height: 325px;
+    border: 11px solid black;
+    justify-content: space-around;
+    padding: 10px;
+}
+.elementos {
+    border: 10px solid black;
+    padding: 80px 45px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.texto2 {
+    font-size: 11px;
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.faixa2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.img3 img{
+    display: flex;
+    width: 700px;
+    border: 10px solid black;
+}
+.texto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    font-size: 11px;
+    color: black;
+    border: 10px solid black;
+    padding: 40px;
+}
+.texto3 button {
+    background-color: #292d33;
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;  
+    cursor: pointer;
+}
+.texto3 button:hover{
+    text-decoration: underline;
+    
+}
+.social-links img{
+    height: 70px;
+}
+.social-links li {
+    margin-right: 8px;
+    display: flex;
+}
+.social-links li a{
+    text-decoration: none;
+}
+
+
+footer {
+    background-color:#292d33;
+    color: white;
+    padding: 16px 0;
+}
